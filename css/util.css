@@ -1,0 +1,25 @@
+.justify-start{
+    justify-content: flex-start;
+}
+
+.p-2{
+    padding: 2rem;
+}
+
+.p-x-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .p-x-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .border-radius-topLeft-bottomLeft{
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .mb-10{
+    margin-bottom: 10px;
+  }

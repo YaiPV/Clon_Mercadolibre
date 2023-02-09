@@ -1,228 +1,415 @@
-body{
-    background-color:#ebebeb ;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #ebebeb;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color:#fff159 ;
-    width: 100%;
+header {
+  background-color: #fff159;
+  width: 100%;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-ul li{
-    padding: 10px;
-    color: rgba(51,51,51,.6);
+ul li {
+  padding: 10px;
+  color: rgba(51, 51, 51, 0.6);
 }
 
-.header-container{
-    width: 80%;
-    margin: auto;
+.header-container {
+  width: 80%;
+  margin: auto;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-section{
-    background-color: white;
-    margin-top: 10%;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+section {
+  background-color: white;
+  margin-top: 10%;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.image-container{
-    padding: 0;
+.image-container {
+  padding: 0;
 }
 
-.image-container img{
-   width: 100%;
+.image-container img {
+  width: 100%;
 }
 
-.promo-container{
-    background-color: #ebebeb;
+.promo-container {
+  background-color: #ebebeb;
 }
 
-.card-container img{
-    width: 100%;
-    border-radius: 5px;
-    
+.offerts-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
 }
 
-.promo-description{
-    background-color: white;
+.card-container img {
+  width: 100%;
+  border-radius: 5px;
 }
 
-.card-promo{
-    width: 390px;
-   
+.promo-description {
+  background-color: white;
+  padding: 5px 20px;
+}
+
+.card-promo {
+  width: 390px;
 }
 
 .card {
-    background-color: #ebebeb;
-    margin: 10px;
+  background-color: #ebebeb;
+  margin: 10px;
 }
 
-
-.card-image-container{
-    border-bottom: 1px solid gray;
+.card-image-container {
+  border-bottom: 1px solid gray;
 }
 
 .card-suscribe {
-    background: linear-gradient(90deg,#a90f90 55%,#0c1a51);
-    color: white;    
-    border-radius: 5px 5px 0px 0px;
+  background: linear-gradient(90deg, #a90f90 55%, #0c1a51);
+  color: white;
+  border-radius: 5px 5px 0px 0px;
 }
 
-.suscribe{
-    padding: 0;
+.suscribe {
+  padding: 0;
 }
 
-.suscribe-container{
-    border-radius: 5px;
+.suscribe-container {
+  border-radius: 5px;
 }
 
-.border-bottom{
-    border-bottom: 1px solid gray;
+.border-bottom {
+  border-bottom: 1px solid gray;
 }
 
-.padding-special{
-    padding: 10px 30px;
+.padding-special {
+  padding: 10px 30px;
 }
 
-.card-footer{
-    text-align: right;
-    padding: 20px;
+.card-footer {
+  text-align: right;
+  padding: 20px;
 }
 
-.card-footer button{
-    background-color: #3483fa;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.card-footer button {
+  background-color: #3483fa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
 }
 
-.find-container{
-    background-color:#ebebeb  ;
+.find-container {
+  background-color: #ebebeb;
 }
 
 .benefits {
-    background-color:#ebebeb ; 
-  
+  background-color: #ebebeb;
 }
 
 .benefits-title {
-   color: gray; 
-   
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
 }
 
-.benefits img{
-    width: 100%;
-    border-radius: 10px;   
+.benefits img {
+  width: 100%;
+  padding: 0px 10px;
 }
 
-.discount{
-border-radius: 10px;
-
-}
-
-.discount2{
-    justify-content: space-between;
-}
-
-.card2{
-    background-color: white;
-    width: 150px;
-}
-
-.store-background{
-    background-color:#ebebeb ;
-    
-    
-}
-
-.store-background2{
-    justify-content: space-between;
+.border-radius{
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  display: block;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
 }
 
 
-.stores-container{
+.picture-header {
+  background: none;
+}
+
+.container-picture {
+  width: 100%;
+}
+
+.container-picture img{
+  width: 100%;
+}
+
+.picture-header-column1{
+  width: 60%;
+}
+
+
+.picture-header-column2{
+  width: 40%;
+}
+
+.container-info {
+  width: 41%;
+  box-sizing: border-box;
+  padding: 5.4% 5.4% 3.6%;
+  margin-left: -1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.benefits-message{
+  background-color: black;
+  color: white;
+  padding: 45px;
+}
+.benefits-title1{
+  font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 4px;
+    margin: 0px 0px 8px;
+}
+
+.benefits-title2{
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.discount-container {
+  background: none;
+}
+
+.discount-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.discount {
+  border-radius: 10px;
+}
+
+.discount2 {
+  justify-content: space-between;
+}
+
+.card2 {
   background-color: white;
-width: 290px;
+  width: 150px;
+  padding: 25px;
+  border-radius: 10px;
 }
 
-.storecontainer2{
-   
+.store-background {
+  background-color: #ebebeb;
 }
 
-.stores1 img{
-    display: inline-block;
-    height: 80px;
-    margin: 1px;
-    width: 290px;
-    
+.store-background2 {
+  justify-content: space-between;
+}
+
+.store-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.stores-container {
+  background-color: white;
+  width: 290px;
+  border-radius: 10px;
+}
+
+.stores1 img {
+  display: inline-block;
+  height: 80px;
+  margin: 1px;
+  width: 290px;
+  border-radius: 9px;
 }
 
 .stores2 {
-   height: 100px;
-    margin: auto;
-    margin-left: 100px;
-   } 
-
-   .stores3{
-    padding-left: 10px;
-   }
-
-.hp{
-    margin-left:120px ;
+  height: 100px;
+  margin: auto;
+  margin-left: 100px;
+  border-radius: 9px;
 }
 
-.promo-container{
-    background-color: #ebebeb;
+.stores2 img {
+  position: relative;
+  top: -40;
+  border-radius: 10px;
 }
 
-.interests{
-    caret-color:  #ebebeb;
+.stores-detail-container {
+  padding: 25px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-top: -60px;
 }
 
-.interest-container{
-    background-color: #ebebeb; 
+.stores3 {
+  padding-left: 10px;
 }
 
-.card-container img{
-    width: 100%;
-}
-.card{
-    background-color: white;
-    margin: 10px;
-}
-
-.card-image-container{
-   }
-
-
-
-.categories-card-containe{
-    background-color: white;
+.stores3 p {
+  text-align: center;
+  color: #999;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 15px;
 }
 
-.footer-container{
-background-color: white;
+.stores-name {
+  margin-left: 90px;
 }
 
-.footer-info{
-    border-bottom: 1px solid gray;
+.stores-name2 {
+  margin-left: 70px;
 }
 
-.padding{
-    padding-right: 600px;
+button {
+  color: white;
+  background-color: #3483fa;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
 }
 
+.promo-container {
+  background-color: #ebebeb;
+}
+
+.supermarket-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.column1 {
+  width: 32%;
+}
+
+.column2 {
+  width: 65%;
+}
+
+.categories-container {
+}
+
+.categories-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.card-image-icon > div {
+  padding: 10px 40px;
+  transition: 0.5s;
+}
+
+.card-image-icon > div:hover {
+  background: blue;
+  color: white;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.pay-container img {
+  height: 50px;
+}
+
+.pay-title {
+  color: #3483fa;
+}
+
+
+
+.interests {
+  caret-color: #ebebeb;
+}
+
+.interest-container {
+  background-color: #ebebeb;
+}
+
+.card-container img {
+  width: 100%;
+}
+.card {
+  background-color: white;
+  margin: 10px;
+}
+
+.card-image-container {
+}
+
+.categories-card-container {
+  background-color: white;
+}
+
+.footer-container {
+  background-color: white;
+}
+
+.footer-info {
+  border-bottom: 1px solid gray;
+}
+
+.footer-services {
+  color: black;
+  font-size: 13px;
+  justify-content: ;
+}
+
+.footer-services2 {
+  color: #999;
+  font-size: small;
+}
+
+.padding {
+  padding-right: 600px;
+}
