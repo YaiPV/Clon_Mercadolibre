@@ -23,3 +23,13 @@
   .mb-10{
     margin-bottom: 10px;
   }
+
+  .border-radius{
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: block;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }

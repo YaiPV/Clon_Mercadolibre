@@ -133,15 +133,6 @@ section {
   padding: 0px 10px;
 }
 
-.border-radius{
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  display: block;
-  height: 250px;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-}
 
 
 .picture-header {
@@ -154,6 +145,7 @@ section {
 
 .container-picture img{
   width: 100%;
+  border-radius: 6px 0px 0px 6px;
 }
 
 .picture-header-column1{
@@ -180,6 +172,8 @@ section {
   background-color: black;
   color: white;
   padding: 45px;
+  height: 157px;
+  border-radius: 0px 6px 6px 0px
 }
 .benefits-title1{
   font-size: 12px;
