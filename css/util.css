@@ -33,3 +33,18 @@
     position: relative;
     text-align: center;
   }
+
+  .border-radius-left{
+    border-radius: 6px 0px 0px 6px;} 
+
+    .border-radius-right{
+      border-radius: 0px 6px 6px 0px;
+    }
+
+    .box-size{
+      width: 130vh;
+      }
+
+      .border-radius-bottom{
+        border-radius: 0px 0px 6px 6px;
+      }

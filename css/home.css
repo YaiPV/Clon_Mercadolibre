@@ -58,16 +58,17 @@ section {
 
 .card-container img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 6px 6px 6px 6px;
 }
 
 .promo-description {
   background-color: white;
   padding: 5px 20px;
+  
 }
 
 .card-promo {
-  width: 390px;
+  width: 376px;
 }
 
 .card {
@@ -240,7 +241,7 @@ section {
   height: 80px;
   margin: 1px;
   width: 290px;
-  border-radius: 9px;
+  border-radius: 9px 9px 0px 0px;
 }
 
 .stores2 {
