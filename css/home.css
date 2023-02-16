@@ -343,6 +343,7 @@ button {
 
 .w-100 {
   width: 100%;
+  padding-top: 80px;
 }
 
 .w-80 {
@@ -357,11 +358,18 @@ button {
   height: 50px;
 }
 
-.pay-title {
-  color: #3483fa;
+.pay-title1 {
+  font-family:Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 20px;
 }
 
+.pay-title2{
+ color: #3483fa;
+}
 
+.pay-info{
+  color: #999;
+}
 
 .interests {
   caret-color: #ebebeb;
@@ -379,8 +387,6 @@ button {
   margin: 10px;
 }
 
-.card-image-container {
-}
 
 .categories-card-container {
   background-color: white;
