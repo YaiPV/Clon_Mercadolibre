@@ -1,0 +1,29 @@
+.discount-container {
+  background: none;
+}
+
+.discount-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.discount {
+  border-radius: 10px;
+}
+
+.discount-pic img {
+  border-radius: 0px 6px 6px 0px;
+  height: 16rem;
+}
+
+.discount2 {
+  justify-content: space-between;
+}
+
+.card2 {
+  background-color: white;
+  width: 15rem;
+  padding: 25px;
+  border-radius: 10px;
+}

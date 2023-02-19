@@ -1,0 +1,67 @@
+.store-background {
+  background-color: #ebebeb;
+}
+
+.store-background2 {
+  justify-content: space-between;
+}
+
+.store-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.stores-container {
+  background-color: white;
+  width: 290px;
+  border-radius: 10px;
+}
+
+.stores1 img {
+  display: inline-block;
+  height: 80px;
+  margin: 1px;
+  width: 290px;
+  border-radius: 9px 9px 0px 0px;
+}
+
+.stores2 {
+  height: 100px;
+  margin: auto;
+  margin-left: 100px;
+  border-radius: 9px;
+}
+
+.stores2 img {
+  position: relative;
+  top: -40;
+  border-radius: 10px;
+}
+
+.stores-detail-container {
+  padding: 25px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-top: -60px;
+}
+
+.stores3 {
+  padding-left: 10px;
+}
+
+.stores3 p {
+  text-align: center;
+  color: #999;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.stores-name {
+  margin-left: 90px;
+}
+
+.stores-name2 {
+  margin-left: 70px;
+}

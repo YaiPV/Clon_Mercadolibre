@@ -1,0 +1,20 @@
+.categories-container {
+}
+
+.categories-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.categories-card-container {
+  background-color: white;
+}
+
+.categories-picture img {
+  width: 50px;
+}
+
+.categories-description {
+  display: contents;
+}

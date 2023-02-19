@@ -1,0 +1,18 @@
+.footer-container {
+  background-color: white;
+}
+
+.footer-info {
+  border-bottom: 1px solid gray;
+}
+
+.footer-services {
+  color: black;
+  font-size: 13px;
+  justify-content: ;
+}
+
+.footer-services2 {
+  color: #999;
+  font-size: small;
+}

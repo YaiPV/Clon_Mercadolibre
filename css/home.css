@@ -38,60 +38,14 @@ section {
   margin-right: auto;
 }
 
-.image-container {
-  padding: 0;
-}
-
-.image-container img {
-  width: 100%;
-}
-
 .promo-container {
   background-color: #ebebeb;
-}
-
-.offerts-header {
-  font-size: 26px;
-  font-weight: 300;
-  color: #666;
-}
-
-.card-container img {
-  width: 100%;
-  border-radius: 6px 6px 6px 6px;
-}
-
-.promo-description {
-  background-color: white;
-  padding: 5px 20px;
-  
-}
-
-.card-promo {
-  width: 376px;
-}
-
-.card {
-  background-color: #ebebeb;
-  margin: 10px;
-}
-
-.card-image-container {
-  border-bottom: 1px solid gray;
 }
 
 .card-suscribe {
   background: linear-gradient(90deg, #a90f90 55%, #0c1a51);
   color: white;
   border-radius: 5px 5px 0px 0px;
-}
-
-.suscribe {
-  padding: 0;
-}
-
-.suscribe-container {
-  border-radius: 5px;
 }
 
 .border-bottom {
@@ -119,45 +73,6 @@ section {
   background-color: #ebebeb;
 }
 
-.benefits {
-  background-color: #ebebeb;
-}
-
-.benefits-title {
-  font-size: 26px;
-  font-weight: 300;
-  color: #666;
-}
-
-.benefits img {
-  width: 100%;
-  padding: 0px 10px;
-}
-
-
-
-.picture-header {
-  background: none;
-}
-
-.container-picture {
-  width: 100%;
-}
-
-.container-picture img{
-  width: 100%;
-  border-radius: 6px 0px 0px 6px;
-}
-
-.picture-header-column1{
-  width: 60%;
-}
-
-
-.picture-header-column2{
-  width: 40%;
-}
-
 .container-info {
   width: 41%;
   box-sizing: border-box;
@@ -169,119 +84,26 @@ section {
   background-color: black;
 }
 
-.benefits-message{
+.benefits-message {
   background-color: black;
   color: white;
   padding: 45px;
   height: 157px;
-  border-radius: 0px 6px 6px 0px
+  border-radius: 0px 6px 6px 0px;
 }
-.benefits-title1{
+.benefits-title1 {
   font-size: 12px;
-    font-weight: 600;
-    line-height: 12px;
-    letter-spacing: 4px;
-    margin: 0px 0px 8px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 4px;
+  margin: 0px 0px 8px;
 }
 
-.benefits-title2{
+.benefits-title2 {
   font-size: 28px;
   line-height: 32px;
   font-weight: 600;
   margin: 0px;
-}
-
-.discount-container {
-  background: none;
-}
-
-.discount-header {
-  font-size: 26px;
-  font-weight: 300;
-  color: #666;
-}
-
-.discount {
-  border-radius: 10px;
-}
-
-.discount2 {
-  justify-content: space-between;
-}
-
-.card2 {
-  background-color: white;
-  width: 150px;
-  padding: 25px;
-  border-radius: 10px;
-}
-
-.store-background {
-  background-color: #ebebeb;
-}
-
-.store-background2 {
-  justify-content: space-between;
-}
-
-.store-header {
-  font-size: 26px;
-  font-weight: 300;
-  color: #666;
-}
-
-.stores-container {
-  background-color: white;
-  width: 290px;
-  border-radius: 10px;
-}
-
-.stores1 img {
-  display: inline-block;
-  height: 80px;
-  margin: 1px;
-  width: 290px;
-  border-radius: 9px 9px 0px 0px;
-}
-
-.stores2 {
-  height: 100px;
-  margin: auto;
-  margin-left: 100px;
-  border-radius: 9px;
-}
-
-.stores2 img {
-  position: relative;
-  top: -40;
-  border-radius: 10px;
-}
-
-.stores-detail-container {
-  padding: 25px;
-  padding-top: 0px;
-  padding-bottom: 5px;
-  margin-top: -60px;
-}
-
-.stores3 {
-  padding-left: 10px;
-}
-
-.stores3 p {
-  text-align: center;
-  color: #999;
-  margin-top: 20px;
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.stores-name {
-  margin-left: 90px;
-}
-
-.stores-name2 {
-  margin-left: 70px;
 }
 
 button {
@@ -310,15 +132,6 @@ button {
   width: 65%;
 }
 
-.categories-container {
-}
-
-.categories-header {
-  font-size: 26px;
-  font-weight: 300;
-  color: #666;
-}
-
 .space-around {
   justify-content: space-around;
 }
@@ -337,40 +150,6 @@ button {
   justify-content: space-evenly;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.w-100 {
-  width: 100%;
-  padding-top: 80px;
-}
-
-.w-80 {
-  width: 80%;
-}
-
-.m-auto {
-  margin: auto;
-}
-
-.pay-container img {
-  height: 50px;
-}
-
-.pay-title1 {
-  font-family:Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-  font-size: 20px;
-}
-
-.pay-title2{
- color: #3483fa;
-}
-
-.pay-info{
-  color: #999;
-}
-
 .interests {
   caret-color: #ebebeb;
 }
@@ -385,30 +164,7 @@ button {
 .card {
   background-color: white;
   margin: 10px;
-}
-
-
-.categories-card-container {
-  background-color: white;
-}
-
-.footer-container {
-  background-color: white;
-}
-
-.footer-info {
-  border-bottom: 1px solid gray;
-}
-
-.footer-services {
-  color: black;
-  font-size: 13px;
-  justify-content: ;
-}
-
-.footer-services2 {
-  color: #999;
-  font-size: small;
+  border-radius: 0px 0px 6px 6px;
 }
 
 .padding {

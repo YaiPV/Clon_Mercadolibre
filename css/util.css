@@ -1,50 +1,83 @@
-.justify-start{
-    justify-content: flex-start;
+.justify-start {
+  justify-content: flex-start;
 }
 
-.p-2{
-    padding: 2rem;
+.p-2 {
+  padding: 2rem;
 }
 
 .p-x-0 {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  padding-left: 0;
+  padding-right: 0;
+}
 
-  .p-x-2{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
+.p-x-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
-  .border-radius-topLeft-bottomLeft{
-    border-radius: 10px 0px 0px 10px;
-  }
+.border-radius-topLeft-bottomLeft {
+  border-radius: 6px 0px 0px 6px;
+}
 
-  .mb-10{
-    margin-bottom: 10px;
-  }
+.mb-10 {
+  margin-bottom: 10px;
+}
 
-  .border-radius{
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    display: block;
-    height: 250px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-  }
+.card {
+  background-color: #ebebeb;
+  margin: 10px;
+}
 
-  .border-radius-left{
-    border-radius: 6px 0px 0px 6px;} 
+.border-radius {
+  border-radius: 6px 6px 6px 6px;
+  display: block;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
 
-    .border-radius-right{
-      border-radius: 0px 6px 6px 0px;
-    }
+.border-radius-left {
+  border-radius: 6px 0px 0px 6px;
+}
 
-    .box-size{
-      width: 130vh;
-      }
+.border-radius-right {
+  border-radius: 0px 6px 6px 0px;
+}
 
-      .border-radius-bottom{
-        border-radius: 0px 0px 6px 6px;
-      }
+.box-size {
+  width: 36rem;
+  height: 16rem;
+}
+
+.border-radius-bottom {
+  border-radius: 0px 0px 6px 6px;
+}
+
+.w-100 {
+  width: 100%;
+  padding-top: 80px;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+  color: #666;
+  padding-top: 25px;
+}
+
+.d-none {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}

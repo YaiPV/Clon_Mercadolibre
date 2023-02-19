@@ -1,0 +1,14 @@
+.benefits {
+  background-color: #ebebeb;
+}
+
+.benefits-title {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+}
+
+.benefits img {
+  width: 100%;
+  padding: 0px 10px;
+}
