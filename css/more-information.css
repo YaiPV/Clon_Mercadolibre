@@ -15,3 +15,11 @@
 .pay-info {
   color: #999;
 }
+
+.pay-container {
+  border-right: 1px solid #ccc;
+}
+
+.pay-container:nth-child(2) {
+  border-right: none;
+}

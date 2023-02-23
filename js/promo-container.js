@@ -1,87 +1,84 @@
 function promoContainer() {
-  return `
-    <h3 class="offerts-header">Ofertas</h3>
-    <div class="card-container flex">
-      <div class="card">
-        <div class="card-image-container">
+  return ` <h3 class="supermarket-header">Colecciones: Supermercado</h3>
+  <div class="card-container flex">
+    <div class="column1">
+      <div class="">
+        <div class="card-promo">
           <img
-            src="https://http2.mlstatic.com/D_Q_NP_966614-MCO53157175681_012023-AB.webp"
+            src="https://http2.mlstatic.com/D_NQ_785071-MLA49925593730_052022-OO.webp"
           />
         </div>
-        <div>
-          $480.740 51% OFF
-          <p>Envio gratis FULL</p>
-        </div>
-        <div>
-          <p>Torre Ducha Para Baño Con</p>
-          <p>Manguera 127x16x45 Cm</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image-container">
-          <img
-            src="https://http2.mlstatic.com/D_Q_NP_609214-MCO44055199470_112020-AB.webp"
-          />
-        </div>
-        <div>
-          $192.900 55% OFF
-          <p>Envio gratis</p>
-        </div>
-        <div>
-          <p>Radio Carro Bluetooth + Camara</p>
-          <p>Usb Sd Pantalla 7 Hd Mod 2020</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image-container">
-          <img
-            src="https://http2.mlstatic.com/D_Q_NP_965363-MCO49118958071_022022-AB.webp"
-          />
-        </div>
-        <div>
-          $139.690 58% OFF
-          <p>Envio gratis FULL</p>
-        </div>
-        <div>
-          <p>Almohada Emma Memory Adapt</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image-container">
-          <img
-            src="https://http2.mlstatic.com/D_Q_NP_617775-MCO51777055795_092022-AB.webp"
-          />
-        </div>
-        <div>
-          $253.705 6% OFF
-          <p>Envio gratis</p>
-        </div>
-        <div>
-          <p>Combo 2 Cámara Ptz Robótica</p>
-          <p>Ip Wifi 2mp 1080hd Exterior 360</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image-container">
-          <img
-            src="https://http2.mlstatic.com/D_Q_NP_939569-MCO48363983361_112021-AB.webp"
-          />
-        </div>
-        <div>
-          $504.900 27% OFF
-          <p>Envio gratis</p>
-        </div>
-        <div>
-          <p>Camilla Para Masajes</p>
-          <p>Profesional Plegable Spa Tatto</p>
+        <div class="promo-description border-radius-bottom">
+          <div>Descubre</div>
+          <div>
+            <h1>SUPERMERCADO</h1>
+          </div>
         </div>
       </div>
     </div>
-    `;
+    <div class="column2">
+      <div class="row1 flex">
+        <div class="">
+          <div class="mb-10">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_740059-MCO53018520287_122022-AC.webp"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_793611-MCO50848070945_072022-AC.webp"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_618228-MCO49449087674_032022-AC.webp"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_609019-MCO46726627399_072021-AC.webp"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row2 flex">
+        <div class="">
+          <div class="">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_826689-MCO50834314924_072022-AC.webp"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_734105-MCO50543877918_072022-AC.webp"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_607202-MCO49742490264_042022-AC.webp"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_928778-MCO52850237864_122022-AC.webp"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>`;
 }
 
 function renderPromoContainer() {

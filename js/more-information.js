@@ -30,7 +30,7 @@ function moreInformation() {
             </div>
           </div>
           <div>
-            <div class="pay-container">
+            <div class="pay-container no-border">
               <img
                 src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/protected.svg"
               />

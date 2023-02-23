@@ -1,0 +1,50 @@
+.sales {
+  background-color: #ebebeb;
+}
+
+.offerts-header {
+  font-size: 26px;
+  font-weight: 300;
+  color: #666;
+  background-color: #ebebeb;
+}
+
+.card-container img {
+  width: 100%;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.promo-description {
+  background-color: white;
+  padding: 5px 20px;
+}
+
+.card-promo img {
+  width: 376px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.card-image-container {
+  border-bottom: 1px solid gray;
+}
+
+.card-information {
+  background-color: white;
+}
+
+.card .hidden {
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.card:hover .hidden {
+  opacity: 1;
+  height: initial;
+  visibility: visible;
+}
+
+.card:hover {
+  border: 1px solid #ccc;
+}
