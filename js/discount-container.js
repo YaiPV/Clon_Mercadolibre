@@ -16,7 +16,7 @@ function discountContainer() {
       </div>
     </div>
 
-    <div class="flex discount2">
+    <div class="flex discount2 box-size">
       <div class="card2 border-radius-topLeft-bottomLeft">
         <p>LO QUIERES, LO TIENES</p>
         <h3>EN CUOTAS</h3>

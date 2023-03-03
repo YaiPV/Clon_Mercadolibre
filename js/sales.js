@@ -12,8 +12,11 @@ function sales() {
           <p>Envio gratis FULL</p>
         </div>
         <div class="hidden">
-          <p>Torre Ducha Para Baño Con</p>
+        <div class="card-information2">
+        <p>Torre Ducha Para Baño Con</p>
           <p>Manguera 127x16x45 Cm</p>
+        </div>
+          
         </div>
       </div>
 
@@ -23,7 +26,7 @@ function sales() {
             src="https://http2.mlstatic.com/D_Q_NP_609214-MCO44055199470_112020-AB.webp"
           />
         </div>
-        <div>
+        <div class="card-information">
           $192.900 55% OFF
           <p>Envio gratis</p>
         </div>
@@ -39,7 +42,7 @@ function sales() {
             src="https://http2.mlstatic.com/D_Q_NP_965363-MCO49118958071_022022-AB.webp"
           />
         </div>
-        <div>
+        <div class="card-information">
           $139.690 58% OFF
           <p>Envio gratis FULL</p>
         </div>
@@ -54,7 +57,7 @@ function sales() {
             src="https://http2.mlstatic.com/D_Q_NP_617775-MCO51777055795_092022-AB.webp"
           />
         </div>
-        <div>
+        <div class="card-information">
           $253.705 6% OFF
           <p>Envio gratis</p>
         </div>
@@ -70,7 +73,7 @@ function sales() {
             src="https://http2.mlstatic.com/D_Q_NP_939569-MCO48363983361_112021-AB.webp"
           />
         </div>
-        <div>
+        <div class="card-information">
           $504.900 27% OFF
           <p>Envio gratis</p>
         </div>

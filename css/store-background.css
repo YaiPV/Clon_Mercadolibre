@@ -18,6 +18,10 @@
   border-radius: 10px;
 }
 
+.stores-container:hover {
+  border: 1px solid #ccc;
+}
+
 .stores1 img {
   display: inline-block;
   height: 80px;

@@ -19,28 +19,28 @@ function promoContainer() {
     <div class="column2">
       <div class="row1 flex">
         <div class="">
-          <div class="mb-10">
+          <div class="mb-10 market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_740059-MCO53018520287_122022-AC.webp"
             />
           </div>
         </div>
         <div class="">
-          <div class="">
+          <div class="market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_793611-MCO50848070945_072022-AC.webp"
             />
           </div>
         </div>
         <div class="">
-          <div class="">
+          <div class="market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_618228-MCO49449087674_032022-AC.webp"
             />
           </div>
         </div>
         <div class="">
-          <div class="">
+          <div class="market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_609019-MCO46726627399_072021-AC.webp"
             />
@@ -49,28 +49,28 @@ function promoContainer() {
       </div>
       <div class="row2 flex">
         <div class="">
-          <div class="">
+          <div class="market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_826689-MCO50834314924_072022-AC.webp"
             />
           </div>
         </div>
         <div class="">
-          <div class="">
+          <div class="market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_734105-MCO50543877918_072022-AC.webp"
             />
           </div>
         </div>
         <div class="">
-          <div class="">
+          <div class="market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_607202-MCO49742490264_042022-AC.webp"
             />
           </div>
         </div>
         <div class="">
-          <div class="">
+          <div class="market-pic">
             <img
               src="https://http2.mlstatic.com/D_Q_NP_928778-MCO52850237864_122022-AC.webp"
             />

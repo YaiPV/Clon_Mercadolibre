@@ -1,0 +1,14 @@
+.promo-description {
+  background-color: white;
+  padding: 5px 20px;
+  width: 337px;
+}
+
+.card-promo img {
+  width: 376px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.market-pic:hover {
+  border: 1px solid #ccc;
+}

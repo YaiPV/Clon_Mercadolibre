@@ -18,3 +18,11 @@
 .picture-header-column2 {
   width: 40%;
 }
+
+.benefits-message {
+  background-color: black;
+  color: white;
+  padding: 45px;
+  height: 157px;
+  border-radius: 0px 6px 6px 0px;
+}

@@ -27,3 +27,7 @@
   padding: 25px;
   border-radius: 10px;
 }
+
+.box-size:hover {
+  border: 1px solid #ccc;
+}

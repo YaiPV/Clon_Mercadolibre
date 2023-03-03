@@ -16,8 +16,8 @@ function find() {
       </div>
     </div>
 
-    <div class="flex discount2-2">
-      <div class="card2-2 border-radius-topLeft-bottomLeft">
+    <div class="flex discount2-2 box-size">
+      <div class="card2-2 border-radius-topLeft-bottomLeft ">
         <p>SUSCRIBETE AL NIVEL 6</p>
         <h3>POR SOLO</h3>
         <h3>$17.899 CADA MES</h3>
