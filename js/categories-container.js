@@ -64,78 +64,20 @@ function categoriesContainer() {
   const categoriesData = getCategoriesData();
   return `      <div>
   <h1 class="categories-header">Categorias populares</h1>
-  ${
-    categoriesData.map((item))=>`
+  ${categoriesData
+    .map(
+      (item) =>
+        `<div class="flex space-around card-image-icon">
+    <div class="categories-picture">
+      <img src="${item.image}" />
+      ${item.description}
+    </div>
+  </div>
     `
-  }
-</div>
-<div>
-  <div class="flex space-around card-image-icon">
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-
-    <div class="categories-picture">
-      <img src=""/>
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-     
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-  </div>
-
-  <div class="flex space-around card-image-icon">
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-    <div class="categories-picture">
-      <img src="" />
-      
-    </div>
-  </div>
-</div>
-    
-      `;
+    )
+    .join("")}
+  
+</div>`;
 }
 
 function renderCategoriesContainer() {
