@@ -129,16 +129,6 @@ button {
   justify-content: space-around;
 }
 
-.card-image-icon > div {
-  padding: 10px 40px;
-  transition: 0.5s;
-}
-
-.card-image-icon > div:hover {
-  background: blue;
-  color: white;
-}
-
 .space-evenly {
   justify-content: space-evenly;
 }

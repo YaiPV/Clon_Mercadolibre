@@ -33,7 +33,7 @@ function getCategoriesData() {
       description: `<p class="categories-description">Celulares y Teléfonos</p>`,
     },
     {
-      image: "./img/lipstick.png",
+      image: "./img/lipstick.svg",
       description: `<p class="categories-description">Belleza y Cuidado Personal</p>`,
     },
     {
@@ -64,19 +64,22 @@ function categoriesContainer() {
   const categoriesData = getCategoriesData();
   return `      <div>
   <h1 class="categories-header">Categorias populares</h1>
+  <div class="flex space-around card-image-icon wrap">
   ${categoriesData
     .map(
       (item) =>
-        `<div class="flex space-around card-image-icon">
+        `
     <div class="categories-picture">
+    <div class="categories-item">
       <img src="${item.image}" />
       ${item.description}
+      </div>
     </div>
-  </div>
+ 
     `
     )
     .join("")}
-  
+    </div>
 </div>`;
 }
 
