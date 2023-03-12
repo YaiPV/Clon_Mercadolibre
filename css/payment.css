@@ -1,2 +1,7 @@
+.payment-box {
+  display: flex;
+}
+
 .payment-pic {
+  margin-left: 120px;
 }

@@ -31,22 +31,20 @@ function getPaymentData() {
 function payment() {
   const paymentData = getPaymentData();
   return `
-  <div class="">
-  <div class="payment-pic">
+  <div class="payment-box">
+  
     
     ${paymentData
       .map(
         (item) => `
+        <div class="payment-pic">
         <img
         src="${item.image}"/>
-        </div>
+       
         <div>
         ${item.description}
-        </div>
-        
-       
+        </div>    
   </div>
-  
     `
       )
       .join("")}
