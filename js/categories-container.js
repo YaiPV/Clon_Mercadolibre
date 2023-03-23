@@ -1,35 +1,35 @@
 function getCategoriesData() {
   const data = [
     {
-      image: "./img/car.png",
+      image: "./img/car.svg",
       description: `<p class="categories-description">Carros, Motos y Otros</p>`,
     },
     {
-      image: "./img/compu.png",
+      image: "./img/compu.svg",
       description: `<p class="categories-description">Computación</p>`,
     },
     {
-      image: "./img/tshirt.png",
+      image: "./img/shirt.svg",
       description: `<p class="categories-description">Ropa y Accesorios</p>`,
     },
     {
-      image: "./img/sofa.png",
+      image: "./img/sofa.svg",
       description: `<p class="categories-descriptionS">Hogar y Muebles</p>`,
     },
     {
-      image: "./img/carwheel.png",
+      image: "./img/wheelcar.svg",
       description: ` <p class="categories-description">Accesorios para Vehículos</p>`,
     },
     {
-      image: "./img/stove.png",
+      image: "./img/stove.svg",
       description: `<p class="categories-description">Electrodomésticos</p>`,
     },
     {
-      image: "./img/camara.png",
+      image: "./img/camera.svg",
       description: `<p class="categories-description">Cámaras y Accesorios</p>`,
     },
     {
-      image: "./img/cellphone.png",
+      image: "./img/cellphone.svg",
       description: `<p class="categories-description">Celulares y Teléfonos</p>`,
     },
     {
@@ -37,23 +37,23 @@ function getCategoriesData() {
       description: `<p class="categories-description">Belleza y Cuidado Personal</p>`,
     },
     {
-      image: "./img/football.png",
+      image: "./img/football.svg",
       description: `<p class="categories-description">Deportes y Fitness</p>`,
     },
     {
-      image: "./img/microphone.png",
+      image: "./img/microphone.svg",
       description: `<p class="categories-description">Electrónica, Audios y Video</p>`,
     },
     {
-      image: "./img/videogame.png",
+      image: "./img/videogame.svg",
       description: `<p class="categories-description">Consolas y Videojuegos</p>`,
     },
     {
-      image: "./img/bear.png",
+      image: "./img/bear.svg",
       description: `<p class="categories-description">Juegos y Juguetes</p>`,
     },
     {
-      image: "./img/tool.png",
+      image: "./img/tool.svg",
       description: `<p class="categories-description">Herramientas</p>`,
     },
   ];
