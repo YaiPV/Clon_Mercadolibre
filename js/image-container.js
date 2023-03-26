@@ -1,5 +1,5 @@
 async function dataImageContainer() {
-  const data = await getData("http://localhost:3000/sales");
+  const data = await getData("http://localhost:3000/images");
   return data;
 }
 async function imageContainer() {
@@ -22,8 +22,8 @@ async function imageContainer() {
     `;
 }
 
-function renderImageContainer() {
-  document.querySelector(".image-container").innerHTML = imageContainer();
+async function renderImageContainer() {
+  document.querySelector(".image-container").innerHTML = await imageContainer();
 }
 renderImageContainer();
 

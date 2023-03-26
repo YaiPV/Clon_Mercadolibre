@@ -1,39 +1,12 @@
-function getPaymentData() {
-  const data = [
-    {
-      image:
-        "https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/credit-card.svg",
-      description: `<p>Hasta 48 cuotas</p>
-      <p>Ver mas</p>`,
-    },
-    {
-      image:
-        "https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/transfer.svg",
-      description: `<p>Transferencia desde tu banco</p>
-      <p>Ver mas</p>`,
-    },
-    {
-      image:
-        "https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/payment-agreement.svg",
-      description: `<p>Paga en efectivo</p>
-      <p>Ver mas</p>`,
-    },
-    {
-      image:
-        "https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/view-more.svg",
-      description: ` <p>Mas medios de pago</p>
-      <p>Ver mas</p>`,
-    },
-  ];
+async function getPaymentData() {
+  const data = await getData("http://localhost:3000/payment");
   return data;
 }
 
-function payment() {
-  const paymentData = getPaymentData();
+async function payment() {
+  const paymentData = await getPaymentData();
   return `
   <div class="payment-box">
-  
-    
     ${paymentData
       .map(
         (item) => `
@@ -52,7 +25,7 @@ function payment() {
     </div>`;
 }
 
-function renderpayment() {
-  document.querySelector(".payment").innerHTML = payment();
+async function renderpayment() {
+  document.querySelector(".payment").innerHTML = await payment();
 }
 renderpayment();

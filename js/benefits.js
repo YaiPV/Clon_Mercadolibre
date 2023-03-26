@@ -1,23 +1,10 @@
-function getBenefitsData() {
-  const data = [
-    {
-      image:
-        "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/disney/hub-widget-disney-star/Widget_Multicontent_Latam_768-x-566px.jpg",
-    },
-    {
-      image:
-        "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/hbo/widget/HBOMax_widgetmulti_mobdsk_mco_@2x.webp",
-    },
-    {
-      image:
-        "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/paramount/widget-multip/paramount_widgetmulti_mobdsk_mco_@2x.jpg",
-    },
-  ];
+async function getBenefitsData() {
+  const data = await getData("http://localhost:3000/benefits");
   return data;
 }
 
-function benefits() {
-  const benefitsData = getBenefitsData();
+async function benefits() {
+  const benefitsData = await getBenefitsData();
   return `
   <div class="flex">
   <h1 class="benefits-title">Beneficios de Mercado Puntos</h1>
@@ -45,7 +32,7 @@ function benefits() {
     `;
 }
 
-function renderBenefits() {
-  document.querySelector(".benefits").innerHTML = benefits();
+async function renderBenefits() {
+  document.querySelector(".benefits").innerHTML = await benefits();
 }
 renderBenefits();
